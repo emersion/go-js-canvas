@@ -19,7 +19,7 @@ func (c *Canvas) FillRect(x, y, w, h int) {
 	c.ctx.Call("fillRect", x, y, w, h)
 }
 
-func NewCanvas(el *js.Object) *Canvas {
+func New(el *js.Object) *Canvas {
 	return &Canvas{
 		Element: el,
 		ctx: el.Call("getContext", "2d"),
