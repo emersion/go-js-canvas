@@ -6,5 +6,5 @@ GopherJS bindings for `<canvas>`
 
 Use the GohperJS DOM package instead:
 
-https://godoc.org/honnef.co/go/js/dom#HTMLCanvasElement
-https://godoc.org/honnef.co/go/js/dom#CanvasRenderingContext2D
+* https://godoc.org/honnef.co/go/js/dom#HTMLCanvasElement
+* https://godoc.org/honnef.co/go/js/dom#CanvasRenderingContext2D
